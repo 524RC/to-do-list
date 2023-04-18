@@ -1,3 +1,8 @@
+body{
+    background-color:#ce6464;
+    font-family: Brush Script MT;
+    font-size:50px;
+}
 *{
     box-sizing:border-box;
 }
@@ -12,7 +17,7 @@ ul li{
     position:relative;
     padding:12px 8px 12px 40px;
     background:#cf5353;
-    font-size:18px;
+    font-size:25px;
     transition:0.2s;
     /* make li unselectable*/
     -webkit-user-select:none;
@@ -75,10 +80,11 @@ input{
     color:black;
     text-align:center;
     float:left;
-    font-size:16px;
+    font-size:17px;
     cursor:pointer;
     transition:0.3s;
     border-radius:6px;
+    font-family:Brush Script MT    ;
 }
 .header:after{
     content:'';
@@ -88,4 +94,8 @@ input{
 .addbtn:hover{
     background-color:#00ffdd;
     color:white;
+}
+.li{
+    font-family: Brush Script MT;
+
 }
